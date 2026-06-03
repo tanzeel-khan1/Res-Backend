@@ -27,9 +27,9 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:4004",
+    origin: ["http://localhost:4004", "https://restaurantsystem-six.vercel.app"],
     credentials: true,
-  }),
+  })
 );
 
 app.use(express.json());
