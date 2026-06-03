@@ -5,7 +5,7 @@ import {
   getReviewsByUser,
   deleteRestaurantReview,
 } from "../Controllers/reviewController.js";
-import { protect } from "../middleware/authMiddleware.js";
+import { protect } from "../Middleware/authMiddleware.js";
 
 const router = express.Router();
 
