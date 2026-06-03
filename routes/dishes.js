@@ -7,7 +7,7 @@ const {
   createDish,
   updateDish,
   deleteDish,
-} = require("../controllers/dishController");
+} = require("../Controllers/dishController");
 
 router.get("/", getDishes);
 router.get("/:id", protect, getDishById);
