@@ -27,7 +27,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["http://localhost:4004", "https://restaurantsystem-six.vercel.app"],
+    origin: ["http://localhost:4004", "https://restaurantsystem-six.vercel.app","https://finetasterestaurant.netlify.app"],
     credentials: true,
   })
 );
