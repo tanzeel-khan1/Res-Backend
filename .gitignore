@@ -6,7 +6,7 @@ node_modules/
 dist/
 build/
 out/
-
+.env
 # Environment variables
 .env.development.local
 .env.production.local
@@ -38,8 +38,7 @@ coverage/
 
 # Temporary files
 *.tmp
-*.temp
+
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
-config.bat
