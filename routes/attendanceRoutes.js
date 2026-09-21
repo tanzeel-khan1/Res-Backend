@@ -8,7 +8,6 @@ import {
   leaveDecision,
   getAllAttendance,
 } from "../Controllers/attendanceController.js";
-
 import { protect, adminOnly } from "../Middleware/authMiddleware.js";
 
 const router = express.Router();
