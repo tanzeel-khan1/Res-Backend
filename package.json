@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
+    "start": "node init && node server.js",
+    "dev": "node init && nodemon server.js"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +21,7 @@
     "morgan": "^1.10.1",
     "multer": "^2.0.2",
     "node-cron": "^4.2.1",
-    "nodemailer": "^7.0.12",
+    "nodemailer": "^10.4.0",
     "stripe": "^18.5.0"
   },
   "devDependencies": {
